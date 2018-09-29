@@ -1,0 +1,207 @@
+
+body{
+    font-family: 'Fjalla One', sans-serif;
+}
+/*portada*/
+.header{
+    background-image: url(F90.png);
+    background-color: #cccccc;
+    height: 600px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imagen1{
+    width: 247px;
+    height:343px;
+    border: solid 4px #ABF0D3;
+    margin-bottom:40px;
+}
+
+.pt{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.p1{
+    color:#FFFFFF;
+}
+
+.p2{
+    color:#FCFC62;
+    font-size: 20px;
+}
+
+.skills{
+    margin-top:100px;
+}
+
+.conjimgs{
+    justify-content: center;
+    width:700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*menu*/
+li{
+    list-style: none;
+    padding:20px;
+}
+.menu{
+    background-color:#7D7D7D;
+    margin: none;
+    font-family: 'Fjalla One', sans-serif;
+    color:#FFFFFF;
+    font-size:18px;
+}
+ ul{
+     display: flex;
+     justify-content: center;
+     margin: 0px;
+ }
+
+ /*About me*/
+ .about{
+     display: flex;
+     align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+
+ .imagen2{
+    width:329px;
+    height:370px;
+    padding-right: 50px;
+ }
+
+ .info{
+     display:flex;
+     justify-content: center;
+ }
+
+.p3{
+    font-size: 36px;
+    margin-top:80px;
+    margin-bottom: 40px;
+}
+
+ /*Educación*/
+.alin{
+    display: flex;
+    justify-content: center;
+}
+
+.alo{
+    margin-right:20px;
+    font-size: 18px;
+    color: #7D7D7D;
+    text-decoration-line: underline 1px #FCFC62;
+    text-decoration-color: #FCFC62;
+}
+
+.conjimgs{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ .educacion{
+     background-image: url(quimica1.png);
+     background-position:right left;
+     height: 1074px;
+     object-fit: scale-down;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align:left;
+ }
+
+.textedu{
+    display: flex;
+    flex-direction: column;
+}
+.imgskill{
+    width: 140px;
+    margin:30px;
+}
+.todo{margin-top:-60px;}
+ /* interes*/
+.contimg1{
+    background-color:#F2F2F2;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    
+}
+.descripcion1{
+    padding: 30px;
+    color: #6F6C6C;
+}
+
+.imgint1{
+    width: 300px;
+    border: solid 3px #FCFC62;
+}
+.imgint2{
+    width: 500px;
+    border: solid 3px #FCFC62;
+}
+
+.interes{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.parte1{
+    display: flex;
+    justify-content: center;
+}
+.parte2{
+    display: flex;
+    justify-content: center;
+}
+
+ /*contacto*/
+ .contq{
+     color:white;
+ }
+ .contact{
+     background-color: #7D7D7D;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding:50px;
+ }
+
+.pl{
+    color:#FCFC62!important;
+} 
+
+.pr{
+    font-size:24px;
+    color: #ABF0D3;
+}
+
+ .redes{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .red1{
+     width:50px;
+     height:50px;
+     padding-left:30px;
+ }
+ .red2{
+    width:21px;
+    height:45px;
+ }
